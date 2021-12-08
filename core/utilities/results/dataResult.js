@@ -1,6 +1,6 @@
-import Result from "./result.js";
+const Result = require('./result');
 
-export default class DataResult extends Result{
+module.exports = class DataResult extends Result{
     constructor(success, data, message){
         super(success, message)
         this.data = data;

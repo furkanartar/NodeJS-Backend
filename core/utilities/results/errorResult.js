@@ -1,6 +1,6 @@
-import Result from "./result.js";
+const Result = require("./result");
 
-export default class ErrorResult extends Result{
+module.exports = class ErrorResult extends Result{
     constructor(message){
         super(false, message)
     }

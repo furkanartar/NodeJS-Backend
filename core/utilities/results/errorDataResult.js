@@ -1,6 +1,6 @@
-import DataResult from "./dataResult.js";
+const DataResult = require("./dataResult");
 
-export default class ErrorDataResult extends DataResult{
+module.exports = class ErrorDataResult extends DataResult{
     constructor(data, message){
         super(false, data, message)
     }
