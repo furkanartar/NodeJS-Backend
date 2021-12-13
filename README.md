@@ -1,2 +1,2 @@
 # NodeJS-Backend
-NodeJS öğrenirken geliştirdiğim ilk API.
+NodeJS öğrenirken geliştirdiğim ve geliştirmeye devam edeceğim API.
